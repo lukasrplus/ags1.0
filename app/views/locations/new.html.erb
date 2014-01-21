@@ -1,0 +1,18 @@
+<h1>Neues Turnier hinzufügen:</h1>
+
+<%= form_tag locations_url, method: 'post' do %>
+
+  <%= label_tag 'Name'%>
+  <%= text_field_tag 'Name'%>
+  <br>
+  <%= label_tag 'Date' %>
+  <%= date_field_tag 'Date' %>
+  <br>
+  <%= submit_tag 'Add this tournament' %>
+
+
+
+<% end %>
+
+
+
