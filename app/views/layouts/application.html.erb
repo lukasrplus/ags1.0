@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ags10</title>
+  <title>Academic Golf Series</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+
+  <!-- DEVISE NOTIFICATIONS -->
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+  <!-- END OF DEVISE NOTIFICATIONS -->
 
 <%= yield %>
 
