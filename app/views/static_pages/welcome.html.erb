@@ -1,9 +1,13 @@
-<h1>Herzlich Willkommen bei Academic Golf Series.</h1>
+
+
+<h2>Schön, dass du wieder da bist.</h2>
+
+
 
 
 <% if user_signed_in? %>
-<%= link_to "Sign Out", destroy_user_session_url, method: 'delete' %>
+<%= link_to "Sign Out", destroy_user_session_url, method: 'delete', class: 'btn-success btn-lg' %>
 <% else %>
-<%= link_to "Sign In", user_session_url, method: 'post' %>
+<%= link_to "Sign_in", user_session_url, method: 'post', class: 'btn-danger btn-lg' %>
 <% end %>
 
