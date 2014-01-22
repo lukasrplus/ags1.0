@@ -1,5 +1,11 @@
+// NEW BOOTSTRAP VARIABLES
+
+// NEW BOOTSTRAP VARIABLES GO ABOVE THISE LINE
+
+
 @import 'reset';
 @import 'library';
+@import "bootstrap";
 
 body {
   font-family: Helvetica;
@@ -8,4 +14,9 @@ body {
 .container {
   width: 90%;
   margin: 0 auto;
+}
+
+.notice {
+  font-size: 0.8em;
+  color: red;
 }
