@@ -10,8 +10,8 @@ class LocationsController < ApplicationController
 
   def create
     l = Location.new
-    l.name = params[:name]
-    l.date = params[:date]
+    l.name = params[:Name]
+    l.date = params[:Date]
     l.save
     redirect_to turniere_url
   end

@@ -5,7 +5,12 @@
 
 
 
-<%= @locations.each |location| do %>
+<%= @locations.each do |location| %>
+
+  <tr>
+    <td>location.name</td>
+    <td>location.date</td>
+  </tr>
 
 
 <% end %>

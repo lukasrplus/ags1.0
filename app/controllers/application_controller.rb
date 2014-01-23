@@ -12,4 +12,8 @@ class ApplicationController < ActionController::Base
                                                   :handicap, :club, :university]
   end
 
+def after_sign_in_path_for(resource)
+  locations_index_url
+end
+
 end
