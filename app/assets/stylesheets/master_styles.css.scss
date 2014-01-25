@@ -7,9 +7,50 @@
 @import 'library';
 @import "bootstrap";
 
+
+$headline_font: Gentium Book Basic, serif;
+$content_font: Open Sans, sans-serif;
+
+
 body {
-  font-family: Helvetica;
+  font-family: $content_font;
+
+  h1 {
+    font-family: $headline_font;
+    margin-top: 5px;
+    margin-bottom:  5px;
+  }
+
+  h2 {
+    font-family: $content_font;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+  }
+
+  h3, h4 {
+    font-family: $content_font;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 12px;
+  }
 }
+
+.flights {
+  margin-top: 25px;
+}
+
+thead {
+  h4 {
+    font-size: 18px;
+  }
+}
+
+tbody {
+  font-family: $content_font;
+}
+
+
 
 .container {
   width: 90%;
@@ -20,3 +61,4 @@ body {
   font-size: 0.8em;
   color: red;
 }
+

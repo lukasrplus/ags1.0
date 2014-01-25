@@ -11,6 +11,8 @@ Ags10::Application.routes.draw do
   get "/locations/new" => 'locations#new'
   post "/locations" => 'locations#create'
 
+  get "/anmeldung" => 'static_pages#anmeldung', as: 'anmeldung'
+
 
 
 end
