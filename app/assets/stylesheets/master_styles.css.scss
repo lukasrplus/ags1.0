@@ -15,7 +15,7 @@ $content_font: Open Sans, sans-serif;
 
 body {
   font-family: $content_font;
-  background-color: #537F66;
+  background-color: #787F79;
 
   h1 {
     font-family: $headline_font;
@@ -49,6 +49,9 @@ body {
 .registration_box {
   background-color: white;
   padding: 50px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border-radius: 20px;
 }
 
 .registration_head {
@@ -58,7 +61,6 @@ body {
 .time_menu {
   text-align: center;
   margin-top: 40px;
-
 
     a {
       margin-left: 10px;
