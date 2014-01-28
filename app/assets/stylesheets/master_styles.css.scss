@@ -15,6 +15,7 @@ $content_font: Open Sans, sans-serif;
 
 body {
   font-family: $content_font;
+  background-color: #537F66;
 
   h1 {
     font-family: $headline_font;
@@ -45,14 +46,29 @@ body {
   }
 }
 
-// .registration_box {
-//   width: 800px;
-//   margin: 0 auto;
-// }
+.registration_box {
+  background-color: white;
+  padding: 50px;
+}
 
 .registration_head {
   text-align: center;
 }
+
+.time_menu {
+  text-align: center;
+  margin-top: 40px;
+
+
+    a {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+}
+
+
+
 
 .flights {
   margin-top: 25px;
