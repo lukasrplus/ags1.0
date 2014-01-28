@@ -33,7 +33,7 @@ body {
     font-family: $content_font;
     margin-bottom: 5px;
     margin-top: 5px;
-    font-size: 18px;
+    font-size: 14px;
   }
 
   h5 {
@@ -45,13 +45,23 @@ body {
   }
 }
 
+// .registration_box {
+//   width: 800px;
+//   margin: 0 auto;
+// }
+
+.registration_head {
+  text-align: center;
+}
+
 .flights {
   margin-top: 25px;
 }
 
 thead {
   h4 {
-    font-size: 22px;
+    font-size: 16px;
+    text-align: left;
   }
 }
 
