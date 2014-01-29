@@ -15,8 +15,9 @@ Ags10::Application.routes.draw do
 
   # PRE PRODUCTION FEEDBACK ROUTE
 
-  root :to => 'static_pages#anmeldung'
+  root :to => 'static_pages#anmeldung_vormittag'
 
+  get "anmeldung_nachmittag" => 'static_pages#anmeldung_nachmittag', as: 'anmeldung_nachmittag'
 
 
 end

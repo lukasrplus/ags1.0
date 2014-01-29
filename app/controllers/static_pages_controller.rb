@@ -6,9 +6,11 @@ class StaticPagesController < ApplicationController
   def home
   end
 
-  def anmeldung
+  def anmeldung_vormittag
   end
 
+  def anmeldung_nachmittag
+  end
 
 
 end
