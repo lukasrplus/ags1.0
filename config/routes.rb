@@ -18,6 +18,7 @@ Ags10::Application.routes.draw do
   root :to => 'static_pages#anmeldung_vormittag'
 
   get "anmeldung_nachmittag" => 'static_pages#anmeldung_nachmittag', as: 'anmeldung_nachmittag'
+  get "anmeldung_vormittag" => 'static_pages#anmeldung_nachmittag', as: 'anmeldung_vormittag'
 
 
 end
