@@ -115,10 +115,20 @@ button {
 }
 
 .club_logo {
-  text-align: right;
+  text-align: center;
   font-size: 9px;
+  margin-bottom: 10px;
 }
 
 .player_data {
-  font-size: 14px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.club_info {
+  h3 {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 2px;
+  }
 }
