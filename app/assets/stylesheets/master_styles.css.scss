@@ -10,14 +10,14 @@
 
 
 // $headline_font: Gentium Book Basic, serif;
-$headline_font: Open Sans, serif;
-$content_font: Open Sans, sans-serif;
+$headline_font: 'Yanone Kaffeesatz', sans-serif;
+$content_font: 'Yanone Kaffeesatz', sans-serif;
 
 
 body {
   font-family: $content_font;
-  background-color: #25302D;
-  // background-color: white;
+  // background-color: #25302D;
+  background-color: white;
 
   h1 {
     font-family: $headline_font;
@@ -29,7 +29,7 @@ body {
     font-family: $content_font;
     margin-bottom: 5px;
     margin-top: 5px;
-    font-size: 16px;
+    font-size: 20px;
   }
 
   h3, h4 {
@@ -122,13 +122,13 @@ button {
 }
 
 .player_data {
-  font-size: 12px;
+  font-size: 18px;
   text-align: center;
 }
 
 .club_info {
   h3 {
-    font-size: 12px;
+    font-size: 18px;
     text-align: center;
     margin-top: 2px;
   }
