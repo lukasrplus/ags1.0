@@ -14,45 +14,23 @@ $headline_font: 'Yanone Kaffeesatz', sans-serif;
 $content_font: 'Yanone Kaffeesatz', sans-serif;
 
 
+
+.notice {
+  font-size: 0.8em;
+  color: red;
+}
+
 body {
   font-family: $content_font;
   // background-color: #25302D;
   background-color: white;
-
-  h1 {
-    font-family: $headline_font;
-    margin-top: 5px;
-    margin-bottom:  5px;
   }
 
-  h2 {
-    font-family: $content_font;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    font-size: 20px;
-  }
 
-  h3, h4 {
-    font-family: $content_font;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    font-size: 14px;
-  }
 
-  h5 {
-    font-family: $content_font;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    font-size: 12px;
 
-  }
-}
 
-.time {
-  h2 {
-    text-align: center;
-  }
-}
+
 
 .registration_box {
   background-color: white;
@@ -60,82 +38,84 @@ body {
   margin-top: 80px;
   margin-bottom: 80px;
   border-radius: 7px;
-}
 
-.registration_head {
-  text-align: center;
-}
-
-.time_menu {
-  text-align: center;
-  margin-top: 40px;
-
-    a {
-      margin-left: 10px;
-      margin-right: 10px;
+  h1 {
+    font-family: $headline_font;
+    margin-top: 5px;
+    margin-bottom:  5px;
     }
 
-}
+  h2 {
+    font-family: $content_font;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+    }
 
+  h3, h4 {
+    font-family: $content_font;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+    }
 
+  h5 {
+    font-family: $content_font;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 12px;
+    }
 
+  .registration_head {
+    text-align: center;
+  }
 
-.flights {
-  margin-top: 25px;
-}
+  .player_data {
+    text-align: center;
+  }
 
-thead {
-  h4 {
-    font-size: 16px;
+  .club_logo {
+    text-align: center;
+  }
+
+  .time {
+    h2 {
+      text-align: center;
+      }
+  }
+
+  .time_menu {
+    text-align: center;
+    margin-top: 40px;
+
+      a {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+  }
+
+  .flights {
+    margin-top: 25px;
+  }
+
+  .time {
     text-align: left;
   }
-}
 
-tbody {
-  font-family: $content_font;
-}
-
-.container {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.notice {
-  font-size: 0.8em;
-  color: red;
-}
-
-td {
-  text-align: left;
-}
-
-.time {
-  text-align: left;
-}
-
-.fa-user {
-  color: grey;
-}
-
-button {
-  color: white;
-}
-
-.club_logo {
-  text-align: center;
-  font-size: 9px;
-  margin-bottom: 10px;
-}
-
-.player_data {
-  font-size: 16px;
-  text-align: center;
-}
-
-.club_info {
-  h3 {
-    font-size: 16px;
-    text-align: center;
-    margin-top: 2px;
+  .fa-user {
+    color: grey;
   }
+
+  button {
+    color: white;
+  }
+
+
 }
+
+
+
+
+
+
+
