@@ -73,8 +73,21 @@ body {
   .player_data {
     text-align: center;
     padding-top: 10px;
+    font-weight: 700;
+    font-size: 22px;
+  }
+
+  .hcp {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .club_data {
+    text-align: center;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 16px;
+
   }
 
   .club_logo {
@@ -85,7 +98,7 @@ body {
     h2 {
       text-align: center;
       padding-top: 50px;
-      font-size: 40px;
+      font-size: 30px;
       }
   }
 
