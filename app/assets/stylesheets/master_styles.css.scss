@@ -48,9 +48,15 @@ body {
   }
 }
 
+.time {
+  h2 {
+    text-align: center;
+  }
+}
+
 .registration_box {
   background-color: white;
-  padding: 50px;
+  // padding: 50px;
   margin-top: 80px;
   margin-bottom: 80px;
   border-radius: 7px;

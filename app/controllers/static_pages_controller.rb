@@ -12,6 +12,9 @@ class StaticPagesController < ApplicationController
   def anmeldung_vormittag2
   end
 
+  def anmeldung_vormittag3
+  end
+
 
 
   def anmeldung_nachmittag
