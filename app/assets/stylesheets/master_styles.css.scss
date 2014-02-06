@@ -133,6 +133,14 @@ body {
     color: white;
   }
 
+  img {
+    opacity: 0.5;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
 
 }
 
