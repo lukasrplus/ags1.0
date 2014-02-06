@@ -99,6 +99,7 @@ body {
       text-align: center;
       padding-top: 50px;
       font-size: 30px;
+      font-weight: 700;
       }
   }
 
@@ -114,11 +115,15 @@ body {
 
   .flight {
     margin-top: 25px;
+    border-bottom: 1px solid #55762b;
+    padding-bottom: 20px;
   }
 
   .time {
     text-align: left;
+    color: grey;
   }
+
 
   .fa-user {
     color: grey;
